@@ -1,0 +1,13 @@
+numpy
+pandas
+scipy
+matplotlib
+seaborn
+scikit-learn
+folium
+yellowbrick
+kneed
+setuptools
+nbformat
+nbclient
+ipykernel
