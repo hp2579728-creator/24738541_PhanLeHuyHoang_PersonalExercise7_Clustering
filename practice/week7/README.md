@@ -1,16 +1,18 @@
-# Week 7 ? kNN, k-Means v? DBSCAN
+# Week 7 — kNN, k-Means và DBSCAN
 
-Sinh vi?n: **Phan L? Huy Ho?ng** ? MSSV: **24738541**.
+Sinh viên: **Phan Lê Huy Hoàng** — MSSV: **24738541**.
 
-B?y notebook ?? ???c ch?y t? ??u ??n cu?i v? l?u output. C?c file 01, 03, 05, 07 l? t?i li?u h?c n?n kh?ng n?p.
+Repository: https://github.com/hp2579728-creator/24738541_PhanLeHuyHoang_PersonalExercise7_Clustering
 
-## Ch?y l?i
+Bảy notebook đã được chạy từ đầu đến cuối và lưu output. Các file 01, 03, 05, 07 là tài liệu học nên không nộp.
 
-C?i th? vi?n b?ng `python -m pip install -r requirements.txt`, m? notebook trong th? m?c n?y v? ch?n Run All. ???ng d?n d? li?u l? `data/` t??ng ??i v?i notebook. D? li?u nh? n?n ???c k?m ?? ch?y l?i. B?n ?? Folium c?n Internet ?? t?i n?n b?n ??.
+## Chạy lại
 
-`02` t? vi?t kNN b?ng NumPy; `04` gom c?m k-Means t?ng b??c; `08` ??i chi?u Silhouette t? t?nh v? sklearn. C?c b?i c?n l?i d?ng sklearn theo ??. K?t qu? ph?n c?m v? nh?n x?t n?m trong t?ng notebook.
+Cài thư viện bằng `python -m pip install -r requirements.txt`, mở notebook trong thư mục này và chọn Run All. Đường dẫn dữ liệu là `data/` tương đối với notebook. Dữ liệu nhỏ nên được kèm để chạy lại. Bản đồ Folium cần Internet để tải nền bản đồ.
 
-## Ngu?n d? li?u
+`02` tự viết kNN bằng NumPy; `04` gom cụm k-Means từng bước; `08` đối chiếu Silhouette tự tính và sklearn. Các bài còn lại dùng sklearn theo đề. Kết quả phân cụm và nhận xét nằm trong từng notebook.
+
+## Nguồn dữ liệu
 
 - Iris: https://www.kaggle.com/datasets/uciml/iris
 - Penguins: https://www.kaggle.com/datasets/parulpandey/palmer-archipelago-antarctica-penguin-data
@@ -19,4 +21,4 @@ C?i th? vi?n b?ng `python -m pip install -r requirements.txt`, m? notebook trong
 - Mall: https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python
 - Country: https://www.kaggle.com/datasets/rohan0301/unsupervised-learning-on-country-data
 - Wholesale: https://www.kaggle.com/datasets/binovi/wholesale-customers-data-set
-- Marketing v? taxi: hai CSV ?i k?m ??; ngu?n n?u trong notebook 10.
+- Marketing và taxi: hai CSV đi kèm đề; nguồn nêu trong notebook 10.
